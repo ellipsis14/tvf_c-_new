@@ -1,0 +1,10 @@
+
+element = FiniteElement("Discontinuous Lagrange", triangle, 4)
+
+v  			= TestFunction(element)  # Test Function
+h1 			= TrialFunction(element) # Trial Function
+u1 			= Coefficient(element) #  Function
+u2 			= Coefficient(element) #  Function
+
+a = inner(v, h1)*dx 
+L = inner(v, sqrt(dot((u1-u2),(u1-u2)) + dot(grad(u1-u2),grad(u1-u2))))*dx

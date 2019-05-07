@@ -1,0 +1,70 @@
+############### A form file containing the definition of the variational forms expressed in UFL for Total Variation Flow.
+#########################################################################################################################
+# Before the form file can be used in the C++ program, it must be compiled using FFC by running (on the command-line):
+#
+### ffc -l -v dolfin Tvf4.ufl
+
+# configure then the TVF build process
+#######################################################################################################################
+# cmake .
+######################################################################################################################
+
+# Compile then TVF using make
+# make
+#######################################################################################################################
+element = FiniteElement("Discontinuous Lagrange", triangle, 4)
+
+
+v  		= TestFunction(element)  # Test Function
+du 		= TrialFunction(element)     # Trial Function
+
+u1 		= Coefficient(element) #  Function
+u2 		= Coefficient(element) #  Function
+
+n       = FacetNormal(triangle)
+k       = Constant(triangle) 
+h       = Constant(triangle) 
+Delta   = Constant(triangle)
+
+     
+############# Feeding the term associated with the Frobenius inner product ##################
+
+A = (u1-u2).dx(0).dx(0)*(u1-u2).dx(0).dx(0)\
+                  +2*(u1-u2).dx(0).dx(1)*(u1-u2).dx(0).dx(1) \
+                  + (u1-u2).dx(1).dx(1)*(u1-u2).dx(1).dx(1)
+
+
+        
+  
+#### Again jump over u for the relaxation_parameter
+f_22=(grad(u1-u2)[0]('+')*n[0]('+')+grad(u1-u2)[1]('+')*n[1]('+')) \
+                 -(grad(u1-u2)[0]('-')*n[0]('-')+grad(u1-u2)[1]('-')*n[1]('-'))
+
+
+# Jump on the boundary for u
+jumpu1= grad(u1-u2)[0]*n[0]+grad(u1-u2)[1]*n[1]
+
+###################################
+
+######Different parts 
+####First part after the l2 norm
+F_1=((2*h)**(2+k))*A
+
+### Second part
+F_4=dot(f_22, f_22)
+#for the boundary
+F_44=dot(jumpu1, jumpu1)
+#after adding internal and boundary term (one should only worry about restricted thing in case of interior facet (dS))
+F_5= inner(v('+'),(2*h)**(1+k)*0.5*F_4)*dS + inner(v, (2*h)**(1+k)*F_44)*ds
+
+
+# Variational formulation of the experimental convergence
+a = inner(v,du)*dx
+
+L = inner(v, F_1)*dx 
+
+
+
+
+
+

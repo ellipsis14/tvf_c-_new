@@ -1,0 +1,2 @@
+squeue -u rahul
+

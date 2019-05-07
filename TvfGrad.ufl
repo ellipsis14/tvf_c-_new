@@ -1,0 +1,22 @@
+###################################################################
+
+element = FiniteElement("Lagrange", triangle, 2)
+velement = VectorElement("Lagrange", triangle, 2)
+
+###################################################################
+solution = Coefficient(element)
+v        = TestFunction(velement)  # Test Function
+u        = TrialFunction(velement) # Trial Function
+
+###################################################################
+a = inner(u,v)*dx
+L = inner(grad(solution),v)*dx
+
+
+###################################################################
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+
+
+cell = triangle
+IPDG = FiniteElement("Discontinuous Lagrange", triangle, 1)
+
+
+v  		= TestFunction(IPDG)  # Test Function
+dg 		= TrialFunction(IPDG)     # Trial Function
+
+u1 			= Coefficient(IPDG) #  Function
+u2 			= Coefficient(IPDG) #  Function
+
+k       = 0.5
+h       = Constant(triangle)
+Delta   = Constant(triangle)
+
+
+a = inner(v, dg)*dx
+
+
+L = dot(u1-u2,u1-u2)*dx + (2*h)**(2+k)*dot(grad(grad(u1-u2)), grad(grad(u1-u2)))*dx + 0.5*(2*h)**(1+k)*dot(n,jump(grad(u1-u2)))*dot(n,jump(grad(u1-u2)))*ds + 1.0*(2*h)**(1+k)*dot(n,jump(grad(u1-u2)))*dot(n,jump(grad(u1-u2)))*dS
