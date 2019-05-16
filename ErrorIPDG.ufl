@@ -1,3 +1,23 @@
+// Copyright (C) 2017-2019 Rahul Kumar
+// Basque center for Applied Mathematics
+// This is the main for running the implementing the numerical methods
+// This file is part of Numerical simulation of fouth order total variation flow.
+//
+// DOLFIN is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// DOLFIN is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU Lesser General Public License for more details.
+//
+// You should have received a copy of the GNU Lesser General Public License
+// along with DOLFIN. If not, see <http://www.gnu.org/licenses/>.
+// First published : 06/04/2019
+
+
 ############### A form file containing the definition of the variational forms expressed in UFL for Total Variation Flow.
 #########################################################################################################################
 # Before the form file can be used in the C++ program, it must be compiled using FFC by running (on the command-line):
