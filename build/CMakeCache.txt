@@ -334,7 +334,7 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 tvf_c++_new_BINARY_DIR:STATIC=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build
 
 //Value Computed by CMake
-tvf_c++_new_SOURCE_DIR:STATIC=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new
+tvf_c++_new_SOURCE_DIR:STATIC=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src
 
 
 ########################
@@ -431,7 +431,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

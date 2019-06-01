@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new
+CMAKE_SOURCE_DIR = /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build
@@ -150,6 +150,60 @@ TVF.cpp.s:
 	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/TVF.cpp.s
 .PHONY : TVF.cpp.s
 
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.o: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.o
+
+# target to build an object file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o
+
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.i: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.i
+
+# target to preprocess a source file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i
+
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.s: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.s
+
+# target to generate assembly for a file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s
+
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.o: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.o
+
+# target to build an object file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o
+
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.i: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.i
+
+# target to preprocess a source file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i
+
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.s: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.s
+
+# target to generate assembly for a file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s
+
 inputoutput.o: inputoutput.cpp.o
 
 .PHONY : inputoutput.o
@@ -176,60 +230,6 @@ inputoutput.s: inputoutput.cpp.s
 inputoutput.cpp.s:
 	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.s
 .PHONY : inputoutput.cpp.s
-
-jdolfin/jNewtonSolver.o: jdolfin/jNewtonSolver.cpp.o
-
-.PHONY : jdolfin/jNewtonSolver.o
-
-# target to build an object file
-jdolfin/jNewtonSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o
-.PHONY : jdolfin/jNewtonSolver.cpp.o
-
-jdolfin/jNewtonSolver.i: jdolfin/jNewtonSolver.cpp.i
-
-.PHONY : jdolfin/jNewtonSolver.i
-
-# target to preprocess a source file
-jdolfin/jNewtonSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.i
-.PHONY : jdolfin/jNewtonSolver.cpp.i
-
-jdolfin/jNewtonSolver.s: jdolfin/jNewtonSolver.cpp.s
-
-.PHONY : jdolfin/jNewtonSolver.s
-
-# target to generate assembly for a file
-jdolfin/jNewtonSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.s
-.PHONY : jdolfin/jNewtonSolver.cpp.s
-
-jdolfin/jNonlinearVariationalSolver.o: jdolfin/jNonlinearVariationalSolver.cpp.o
-
-.PHONY : jdolfin/jNonlinearVariationalSolver.o
-
-# target to build an object file
-jdolfin/jNonlinearVariationalSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o
-.PHONY : jdolfin/jNonlinearVariationalSolver.cpp.o
-
-jdolfin/jNonlinearVariationalSolver.i: jdolfin/jNonlinearVariationalSolver.cpp.i
-
-.PHONY : jdolfin/jNonlinearVariationalSolver.i
-
-# target to preprocess a source file
-jdolfin/jNonlinearVariationalSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.i
-.PHONY : jdolfin/jNonlinearVariationalSolver.cpp.i
-
-jdolfin/jNonlinearVariationalSolver.s: jdolfin/jNonlinearVariationalSolver.cpp.s
-
-.PHONY : jdolfin/jNonlinearVariationalSolver.s
-
-# target to generate assembly for a file
-jdolfin/jNonlinearVariationalSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.s
-.PHONY : jdolfin/jNonlinearVariationalSolver.cpp.s
 
 main.o: main.cpp.o
 
@@ -270,15 +270,15 @@ help:
 	@echo "... TVF.o"
 	@echo "... TVF.i"
 	@echo "... TVF.s"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.o"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.i"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.s"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.o"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.i"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.s"
 	@echo "... inputoutput.o"
 	@echo "... inputoutput.i"
 	@echo "... inputoutput.s"
-	@echo "... jdolfin/jNewtonSolver.o"
-	@echo "... jdolfin/jNewtonSolver.i"
-	@echo "... jdolfin/jNewtonSolver.s"
-	@echo "... jdolfin/jNonlinearVariationalSolver.o"
-	@echo "... jdolfin/jNonlinearVariationalSolver.i"
-	@echo "... jdolfin/jNonlinearVariationalSolver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

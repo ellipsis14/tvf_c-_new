@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new
+CMAKE_SOURCE_DIR = /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build
@@ -57,66 +57,66 @@ include CMakeFiles/tvf_c++_new.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tvf_c++_new.dir/flags.make
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o: CMakeFiles/tvf_c++_new.dir/flags.make
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o: ../jdolfin/jNonlinearVariationalSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o: CMakeFiles/tvf_c++_new.dir/flags.make
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp > CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.i
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp > CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp -o CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.s
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp -o CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o.requires:
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o.requires:
 
-.PHONY : CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o.requires
+.PHONY : CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o.requires
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o.provides: CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o.provides.build
-.PHONY : CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o.provides
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o.provides: CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o.provides.build
+.PHONY : CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o.provides
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o.provides.build: CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o.provides.build: CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o
 
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o: CMakeFiles/tvf_c++_new.dir/flags.make
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o: ../jdolfin/jNewtonSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o: CMakeFiles/tvf_c++_new.dir/flags.make
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp > CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.i
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp > CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp -o CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.s
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp -o CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o.requires:
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o.requires:
 
-.PHONY : CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o.requires
+.PHONY : CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o.requires
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o.provides: CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o.provides.build
-.PHONY : CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o.provides
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o.provides: CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o.provides.build
+.PHONY : CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o.provides
 
-CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o.provides.build: CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o
+CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o.provides.build: CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o
 
 
 CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o: CMakeFiles/tvf_c++_new.dir/flags.make
-CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o: ../inputoutput.cpp
+CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/inputoutput.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/inputoutput.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/inputoutput.cpp
 
 CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/inputoutput.cpp > CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/inputoutput.cpp > CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.i
 
 CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/inputoutput.cpp -o CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/inputoutput.cpp -o CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.s
 
 CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o.provides.build: CMakeFiles/tvf_c++_
 
 
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: CMakeFiles/tvf_c++_new.dir/flags.make
-CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: ../TVF.cpp
+CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tvf_c++_new.dir/TVF.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/TVF.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/TVF.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/TVF.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.cpp
 
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tvf_c++_new.dir/TVF.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/TVF.cpp > CMakeFiles/tvf_c++_new.dir/TVF.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.cpp > CMakeFiles/tvf_c++_new.dir/TVF.cpp.i
 
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tvf_c++_new.dir/TVF.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/TVF.cpp -o CMakeFiles/tvf_c++_new.dir/TVF.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.cpp -o CMakeFiles/tvf_c++_new.dir/TVF.cpp.s
 
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/tvf_c++_new.dir/TVF.cpp.o.provides.build: CMakeFiles/tvf_c++_new.dir/
 
 
 CMakeFiles/tvf_c++_new.dir/main.cpp.o: CMakeFiles/tvf_c++_new.dir/flags.make
-CMakeFiles/tvf_c++_new.dir/main.cpp.o: ../main.cpp
+CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tvf_c++_new.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/main.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tvf_c++_new.dir/main.cpp.o -c /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/main.cpp
 
 CMakeFiles/tvf_c++_new.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tvf_c++_new.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/main.cpp > CMakeFiles/tvf_c++_new.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/main.cpp > CMakeFiles/tvf_c++_new.dir/main.cpp.i
 
 CMakeFiles/tvf_c++_new.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tvf_c++_new.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/main.cpp -o CMakeFiles/tvf_c++_new.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/main.cpp -o CMakeFiles/tvf_c++_new.dir/main.cpp.s
 
 CMakeFiles/tvf_c++_new.dir/main.cpp.o.requires:
 
@@ -179,8 +179,8 @@ CMakeFiles/tvf_c++_new.dir/main.cpp.o.provides.build: CMakeFiles/tvf_c++_new.dir
 
 # Object files for target tvf_c++_new
 tvf_c_______new_OBJECTS = \
-"CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o" \
-"CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o" \
+"CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o" \
+"CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o" \
 "CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o" \
 "CMakeFiles/tvf_c++_new.dir/TVF.cpp.o" \
 "CMakeFiles/tvf_c++_new.dir/main.cpp.o"
@@ -188,8 +188,8 @@ tvf_c_______new_OBJECTS = \
 # External object files for target tvf_c++_new
 tvf_c_______new_EXTERNAL_OBJECTS =
 
-tvf_c++_new: CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o
-tvf_c++_new: CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o
+tvf_c++_new: CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o
+tvf_c++_new: CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o
 tvf_c++_new: CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o
 tvf_c++_new: CMakeFiles/tvf_c++_new.dir/TVF.cpp.o
 tvf_c++_new: CMakeFiles/tvf_c++_new.dir/main.cpp.o
@@ -217,8 +217,8 @@ CMakeFiles/tvf_c++_new.dir/build: tvf_c++_new
 
 .PHONY : CMakeFiles/tvf_c++_new.dir/build
 
-CMakeFiles/tvf_c++_new.dir/requires: CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o.requires
-CMakeFiles/tvf_c++_new.dir/requires: CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o.requires
+CMakeFiles/tvf_c++_new.dir/requires: CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o.requires
+CMakeFiles/tvf_c++_new.dir/requires: CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o.requires
 CMakeFiles/tvf_c++_new.dir/requires: CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o.requires
 CMakeFiles/tvf_c++_new.dir/requires: CMakeFiles/tvf_c++_new.dir/TVF.cpp.o.requires
 CMakeFiles/tvf_c++_new.dir/requires: CMakeFiles/tvf_c++_new.dir/main.cpp.o.requires
@@ -230,6 +230,6 @@ CMakeFiles/tvf_c++_new.dir/clean:
 .PHONY : CMakeFiles/tvf_c++_new.dir/clean
 
 CMakeFiles/tvf_c++_new.dir/depend:
-	cd /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tvf_c++_new.dir/depend
 

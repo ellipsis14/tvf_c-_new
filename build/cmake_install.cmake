@@ -1,4 +1,4 @@
-# Install script for directory: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new
+# Install script for directory: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

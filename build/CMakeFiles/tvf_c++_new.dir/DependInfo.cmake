@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/TVF.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/TVF.cpp.o"
-  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/inputoutput.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o"
-  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/jdolfin/jNewtonSolver.cpp.o"
-  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/jdolfin/jNonlinearVariationalSolver.cpp.o"
-  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/main.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/main.cpp.o"
+  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/TVF.cpp.o"
+  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o"
+  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o"
+  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/inputoutput.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/inputoutput.cpp.o"
+  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/main.cpp" "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/build/CMakeFiles/tvf_c++_new.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -44,7 +44,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/lib/petscdir/3.7.3/x86_64-linux-gnu-real/include"
   "/usr/include/suitesparse"
   "/usr/include/scotch"
-  "../../dolfin/dolfin"
+  "/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/../dolfin/dolfin"
   "/usr/lib/slepcdir/3.7.2/x86_64-linux-gnu-real/include"
   )
 
