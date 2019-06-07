@@ -1,7 +1,7 @@
 // Copyright (C) 2017-2019 Rahul Kumar
 // Basque center for Applied Mathematics
-// This is the main for implementing the numerical methods
-// This file is part of Numerical simulation of fouth order total variation flow.
+// This is the main file for implementing the numerical methods
+// This file is part of Numerical simulation of fouth order total variation flow using IPDG methods.
 //
 // DOLFIN is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by

@@ -29,8 +29,8 @@
 #include <iostream>
 
 //NEWTON SOLVER FILES RE-WRITTEN:
-/*#include "./jdolfin/jNonlinearVariationalSolver.cpp"
-#include "./jdolfin/jNewtonSolver.cpp"*/
+/*#include "./rdolfin/jNonlinearVariationalSolver.cpp"
+#include "./rdolfin/jNewtonSolver.cpp"*/
 
 #define Length 			    1.0 
 
