@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/Assembler.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/Assembler.h
 vector
 -
 AssemblerBase.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/AssemblerBase.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/AssemblerBase.h
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/AssemblerBase.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/AssemblerBase.h
 string
 -
 utility
@@ -24,7 +24,7 @@ dolfin/common/types.h
 dolfin/log/log.h
 -
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/DirichletBC.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/DirichletBC.h
 map
 -
 set
@@ -48,11 +48,11 @@ dolfin/common/MPI.h
 dolfin/common/Variable.h
 -
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/Equation.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/Equation.h
 memory
 -
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/Form.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/Form.h
 map
 -
 vector
@@ -64,11 +64,11 @@ dolfin/common/Hierarchical.h
 dolfin/common/types.h
 -
 Equation.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/Equation.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/Equation.h
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/NonlinearProblem.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/NonlinearProblem.h
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/NonlinearVariationalProblem.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/NonlinearVariationalProblem.h
 memory
 -
 vector
@@ -76,7 +76,7 @@ vector
 dolfin/common/Hierarchical.h
 -
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/SystemAssembler.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/SystemAssembler.h
 array
 -
 map
@@ -86,11 +86,11 @@ memory
 vector
 -
 DirichletBC.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/DirichletBC.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/DirichletBC.h
 AssemblerBase.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/AssemblerBase.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/AssemblerBase.h
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp
 cmath
 -
 string
@@ -118,11 +118,11 @@ dolfin/log/log.h
 dolfin/common/MPI.h
 -
 NonlinearProblem.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/NonlinearProblem.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/NonlinearProblem.h
 jNewtonSolver.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.h
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.h
 utility
 -
 memory
@@ -132,7 +132,7 @@ dolfin/common/MPI.h
 dolfin/common/Variable.h
 -
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp
 dolfin/common/NoDeleter.h
 -
 dolfin/fem/DirichletBC.h
@@ -146,27 +146,27 @@ dolfin/function/Function.h
 dolfin/function/FunctionSpace.h
 -
 Assembler.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/Assembler.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/Assembler.h
 Form.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/Form.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/Form.h
 NonlinearVariationalProblem.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/NonlinearVariationalProblem.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/NonlinearVariationalProblem.h
 SystemAssembler.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/SystemAssembler.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/SystemAssembler.h
 jNonlinearVariationalSolver.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.h
 
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.h
 dolfin/nls/NonlinearProblem.h
 -
 jNewtonSolver.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.h
 dolfin/nls/PETScSNESSolver.h
 -
 NonlinearVariationalProblem.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/NonlinearVariationalProblem.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/NonlinearVariationalProblem.h
 SystemAssembler.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/SystemAssembler.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/SystemAssembler.h
 
 /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG.h
 algorithm
@@ -315,8 +315,8 @@ ErrorIPDG2.h
 /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG2.h
 iostream
 -
-./jdolfin/jNewtonSolver.cpp
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/./jdolfin/jNewtonSolver.cpp
+./rdolfin/jNewtonSolver.cpp
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/./rdolfin/jNewtonSolver.cpp
 
 /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.h
 dolfin.h
@@ -339,10 +339,10 @@ csignal
 -
 iostream
 -
-../jdolfin/jNonlinearVariationalSolver.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.h
-../jdolfin/jNewtonSolver.h
-/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.h
+../rdolfin/jNonlinearVariationalSolver.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.h
+../rdolfin/jNewtonSolver.h
+/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.h
 
 /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/Tvf4.h
 algorithm

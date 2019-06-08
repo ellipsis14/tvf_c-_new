@@ -35,8 +35,8 @@ include_directories(../dolfin/dolfin)
 
 # Executable
 add_executable(${PROJECT_NAME} 
-        ../jdolfin/jNonlinearVariationalSolver.cpp 
-	../jdolfin/jNewtonSolver.cpp 
+        ../rdolfin/jNonlinearVariationalSolver.cpp 
+	../rdolfin/jNewtonSolver.cpp 
 	inputoutput.cpp
 	TVF.cpp 
 	main.cpp)

@@ -15,8 +15,8 @@
 #include <iostream>
 
 //NEWTON SOLVER FILES RE-WRITTEN:
-#include "../jdolfin/jNonlinearVariationalSolver.h"
-#include "../jdolfin/jNewtonSolver.h"
+#include "../rdolfin/jNonlinearVariationalSolver.h"
+#include "../rdolfin/jNewtonSolver.h"
 
 class PeriodicBC;
 

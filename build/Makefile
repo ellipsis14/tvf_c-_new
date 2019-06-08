@@ -150,59 +150,59 @@ TVF.cpp.s:
 	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/TVF.cpp.s
 .PHONY : TVF.cpp.s
 
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.o: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.o: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.o
 
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.o
-
-# target to build an object file
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.o
-
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.i: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i
-
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.i
-
-# target to preprocess a source file
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.i
-
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.s: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s
-
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.s
-
-# target to generate assembly for a file
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.cpp.s
-
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.o: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o
-
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.o
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.o
 
 # target to build an object file
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.o
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.o
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.o
 
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.i: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.i: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.i
 
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.i
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.i
 
 # target to preprocess a source file
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.i
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.i
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.i
 
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.s: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.s: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.s
 
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.s
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.s
 
 # target to generate assembly for a file
-home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s
-.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.cpp.s
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.s
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.cpp.s
+
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.o: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.o
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.o
+
+# target to build an object file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.o
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.o
+
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.i: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.i
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.i
+
+# target to preprocess a source file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.i
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.i
+
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.s: home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.s
+
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.s
+
+# target to generate assembly for a file
+home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/tvf_c++_new.dir/build.make CMakeFiles/tvf_c++_new.dir/home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.s
+.PHONY : home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.cpp.s
 
 inputoutput.o: inputoutput.cpp.o
 
@@ -270,12 +270,12 @@ help:
 	@echo "... TVF.o"
 	@echo "... TVF.i"
 	@echo "... TVF.s"
-	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.o"
-	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.i"
-	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNewtonSolver.s"
-	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.o"
-	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.i"
-	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/jdolfin/jNonlinearVariationalSolver.s"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.o"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.i"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.s"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.o"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.i"
+	@echo "... home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.s"
 	@echo "... inputoutput.o"
 	@echo "... inputoutput.i"
 	@echo "... inputoutput.s"
