@@ -7,9 +7,10 @@ CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/SystemAssembler.h
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.h
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.h
-CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG.h
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG1.h
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG2.h
+CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG_2h.h
+CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG_h.h
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.cpp
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.h
 CMakeFiles/tvf_c++_new.dir/TVF.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/Tvf4.h
@@ -44,7 +45,8 @@ CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tv
 CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/SystemAssembler.h
 CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.h
 CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.h
-CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG.h
+CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG_2h.h
+CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG_h.h
 CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.h
 CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/Tvf4.h
 CMakeFiles/tvf_c++_new.dir/main.cpp.o: /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TvfGrad.h

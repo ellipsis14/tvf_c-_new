@@ -6,7 +6,8 @@
 #include "Tvf4.h"
 #include "converge.h"
 #include "TvfGrad.h"
-#include "ErrorIPDG.h"
+#include "ErrorIPDG_2h.h"
+#include "ErrorIPDG_h.h"
 
 #include <random>
 #include <cmath>

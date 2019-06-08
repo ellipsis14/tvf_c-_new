@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+import numpy as np
 import pandas as pd
 
 data1 = pd.read_csv('convergence.txt', sep=',', header = None)
@@ -24,7 +24,7 @@ ax1.plot(data2.t, data1.l2, color='red')
 ax2 = ax1 
 ax2.plot(data2.t, data1.h1, color='blue')
 ax3 = ax1
-ax3.plot(data2.t, data1.COIPDG, color='green')
+ax3.plot(data2.t, np.log2(data1.COIPDG), color='green')
 plt.title('Convergence_plot')
 plt.legend()
 plt.show()

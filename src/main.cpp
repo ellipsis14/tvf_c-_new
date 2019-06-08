@@ -23,8 +23,8 @@
 #include "inputoutput.h" // Change
 #include "converge.h"  
 #include "TvfGrad.h"   // Change
-#include "ErrorIPDG.h"
-//#include "ErrorIPDG1.h"
+#include "ErrorIPDG_2h.h"
+#include "ErrorIPDG_h.h"
 //#include "ErrorIPDG2.h"
 #include <fstream>
 #include <csignal>
@@ -109,11 +109,12 @@ class Simulation
     auto Vconv = std::make_shared<converge::FunctionSpace>(meshes[0]->mesh);
     auto L_h1 = std::make_shared<converge::LinearForm>(Vconv);
     auto a_h1 = std::make_shared<converge::BilinearForm>(Vconv,Vconv);
-    auto Vconv2 = std::make_shared<ErrorIPDG::FunctionSpace>(meshes[0]->mesh);
-    auto L_h2 = std::make_shared<ErrorIPDG::LinearForm>(Vconv2);
-    auto a_h2 = std::make_shared<ErrorIPDG::BilinearForm>(Vconv2,Vconv2);
-   // auto L_h3 = std::make_shared<ErrorIPDG2::LinearForm>(Vconv2);
-   // auto a_h3 = std::make_shared<ErrorIPDG2::BilinearForm>(Vconv2,Vconv2);
+    auto Vconv2 = std::make_shared<ErrorIPDG_2h::FunctionSpace>(meshes[0]->mesh);
+    auto Vconv3 = std::make_shared<ErrorIPDG_h::FunctionSpace>(meshes[0]->mesh);
+    auto L_h2 = std::make_shared<ErrorIPDG_2h::LinearForm>(Vconv2);
+    auto a_h2 = std::make_shared<ErrorIPDG_2h::BilinearForm>(Vconv2,Vconv2);
+    auto L_h3 = std::make_shared<ErrorIPDG_h::LinearForm>(Vconv3);
+    auto a_h3 = std::make_shared<ErrorIPDG_h::BilinearForm>(Vconv3,Vconv3);
     auto k = std::make_shared<Constant>(K);
     auto h = std::make_shared<Constant>(H);
 
@@ -123,11 +124,11 @@ class Simulation
  //   auto E1 = std::make_shared<dolfin::Function>(Vconv2);
    // auto E2 = std::make_shared<dolfin::Function>(Vconv2);
     auto IPDG1 = std::make_shared<dolfin::Function>(Vconv2);
-    auto IPDG2 = std::make_shared<dolfin::Function>(Vconv2);
+    auto IPDG2 = std::make_shared<dolfin::Function>(Vconv3);
   //  auto IPDG3 = std::make_shared<dolfin::Function>(Vconv2);
   //  auto IPDG4 = std::make_shared<dolfin::Function>(Vconv2);
     auto DG1 = std::make_shared<dolfin::Function>(Vconv2);
-  //  auto DG2 = std::make_shared<dolfin::Function>(Vconv2);
+    auto DG2 = std::make_shared<dolfin::Function>(Vconv3);
 
     L_h1->u1      = e1;
     L_h1->u2      = e2;
@@ -137,10 +138,10 @@ class Simulation
     L_h2->k       = k;
     L_h2->h       = h;
 
-  //  L_h3->u1      = IPDG3;
-   // L_h3->u2      = IPDG4;
-  //  L_h3->k       = k;
-  //  L_h3->h       = h;
+    L_h3->u1      = IPDG1;
+    L_h3->u2      = IPDG2;
+    L_h3->k       = k;
+    L_h3->h       = h;
 
   // # Calculating the L2 norm
  // # Interpolate functions into (higher order) finite element space
@@ -174,17 +175,17 @@ class Simulation
 //    E1->vector()->axpy(-1.0, *(E2->vector()));
     IPDG1->interpolate(*meshes[0]->u);
     IPDG2->interpolate(*meshes[1]->u);
- //   IPDG3->interpolate(*meshes[0]->u);
- //   IPDG4->interpolate(*meshes[1]->u);
+/*    IPDG3->interpolate(*meshes[0]->u);
+    IPDG4->interpolate(*meshes[1]->u);*/
     solve(*a_h2 == *L_h2, *DG1);
  //   solve(*a_h3 == *L_h3, *DG2);
     result1 =  DG1->vector()->norm("l2"); //+ DG2->vector()->norm("l2");
     std::cout<<"CONVERGENCE RESULT Mesh Dependent (1-2): "<<result1<<std::endl;
  //   E1->interpolate(*meshes[2]->u);
- //   IPDG3->interpolate(*meshes[2]->u);
-    solve(*a_h2 == *L_h2, *DG1);
+    IPDG2->interpolate(*meshes[2]->u);
+    solve(*a_h3 == *L_h3, *DG2);
   //  solve(*a_h3 == *L_h3, *DG2);
-    result2 = DG1->vector()->norm("l2");// + (1/pow(2,1+K))*DG2->vector()->norm("l2");
+    result2 = DG2->vector()->norm("l2");// + (1/pow(2,1+K))*DG2->vector()->norm("l2");
     std::cout<<"CONVERGENCE RESULT Mesh Dependent (2-3): "<<result2<<std::endl;
     eDG.push_back(std::make_pair(result1, result2));
 

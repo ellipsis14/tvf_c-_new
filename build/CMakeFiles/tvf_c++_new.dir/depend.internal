@@ -8,9 +8,10 @@ CMakeFiles/tvf_c++_new.dir/TVF.cpp.o
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/SystemAssembler.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.h
- /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG1.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG2.h
+ /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG_2h.h
+ /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG_h.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.cpp
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/Tvf4.h
@@ -45,7 +46,8 @@ CMakeFiles/tvf_c++_new.dir/main.cpp.o
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/SystemAssembler.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNewtonSolver.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/rdolfin/jNonlinearVariationalSolver.h
- /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG.h
+ /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG_2h.h
+ /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/ErrorIPDG_h.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TVF.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/Tvf4.h
  /home/rkumar/Desktop/Collaborations/UH/tvf_c++_new/src/TvfGrad.h
