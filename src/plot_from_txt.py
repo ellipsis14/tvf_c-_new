@@ -20,11 +20,14 @@ data2['t'] = data2.t
 #
 
 fig, ax1 = plt.subplots()
-ax1.plot(data2.t, data1.l2, color='red')
+ax1.plot(data2.t,data1.l2, color='red')
+plt.xscale('linear', linthreshx=40)
+plt.yscale('symlog', linthreshy=1)
 ax2 = ax1 
 ax2.plot(data2.t, data1.h1, color='blue')
 ax3 = ax1
 ax3.plot(data2.t, np.log2(data1.COIPDG), color='green')
 plt.title('Convergence_plot')
 plt.legend()
+plt.tight_layout()
 plt.show()

@@ -179,13 +179,13 @@ class Simulation
     IPDG4->interpolate(*meshes[1]->u);*/
     solve(*a_h2 == *L_h2, *DG1);
  //   solve(*a_h3 == *L_h3, *DG2);
-    result1 =  DG1->vector()->norm("l2"); //+ DG2->vector()->norm("l2");
+    result1 =  DG1->vector()->norm("l2"); 
     std::cout<<"CONVERGENCE RESULT Mesh Dependent (1-2): "<<result1<<std::endl;
  //   E1->interpolate(*meshes[2]->u);
     IPDG2->interpolate(*meshes[2]->u);
     solve(*a_h3 == *L_h3, *DG2);
   //  solve(*a_h3 == *L_h3, *DG2);
-    result2 = DG2->vector()->norm("l2");// + (1/pow(2,1+K))*DG2->vector()->norm("l2");
+    result2 = DG2->vector()->norm("l2");
     std::cout<<"CONVERGENCE RESULT Mesh Dependent (2-3): "<<result2<<std::endl;
     eDG.push_back(std::make_pair(result1, result2));
 

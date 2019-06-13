@@ -1,6 +1,6 @@
 #Copyright (C) 2017-2019 Rahul Kumar
 # Basque center for Applied Mathematics
-#This is the main for running the implementing the numerical methods
+#This is the ufl for computing the numerator in the convergence expression	
 #This file is part of Numerical simulation of fouth order total variation flow.
 #DOLFIN is free software: you can redistribute it and/or modify
 #it under the terms of the GNU Lesser General Public License as published by
