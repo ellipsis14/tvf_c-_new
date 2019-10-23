@@ -5,7 +5,7 @@ Bhandari, C., Hoppe, R, Kumar, R (2019).
 A C0 interior penalty discontinuous Galerkin method for fourth‐order total variation flow. I: Derivation of the method and numerical results 
 doi : https://doi.org/10.1002/num.22359
 Numerical methods for partial differential equations, Wiley open access Journal.
------
+
 Bhandari, C., Hoppe, R, Kumar, R (2019).
 A C0 interior penalty discontinuous Galerkin method for fourth‐order total variation flow. I: Existence and Uniqueness 
 doi: https://doi.org/10.1002/num.22365
